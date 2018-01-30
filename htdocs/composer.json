@@ -4,7 +4,9 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "AppBundle\\": "src/AppBundle"
+            "AppBundle\\": "src/AppBundle",
+            "RVanGinneken\\DropzoneBundle\\": "src/RVanGinneken/DropzoneBundle",
+            "Ruy\\PageBundle\\": "src/Ruy/PageBundle"
         },
         "classmap": [
             "app/AppKernel.php",

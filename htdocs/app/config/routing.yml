@@ -1,3 +1,11 @@
+ruy_page:
+    resource: "@RuyPageBundle/Resources/config/routing.xml"
+    prefix:   /
+
+r_van_ginneken_dropzone:
+    resource: "@RVanGinnekenDropzoneBundle/Resources/config/routing.xml"
+    prefix:   /
+
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
